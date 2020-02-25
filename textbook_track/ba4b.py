@@ -62,7 +62,7 @@ def find_substrings_encoding_amino_acid(dna, peptide):
 
 
 def check_answers(substrings, answers):
-    """Method to check answer. Compares multisets of substrings and answer."""
+    """Method to check answer. Compares multisets of substrings and answers."""
     from collections import Counter
     return Counter(substrings) == Counter(answers)
 
