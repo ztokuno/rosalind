@@ -2,6 +2,7 @@
 # BA1A
 # Compute the Number of Times a Pattern Appears in a Text
 
+
 def pattern_count(text, pattern):
     """Compute the Number of Times a Pattern Appears in a Text."""
     count = 0

@@ -2,6 +2,7 @@
 # BA1D
 # Find All Occurrences of a Pattern in a String
 
+
 def positions_of_pattern_in_genome(pattern, genome):
     """Find and return positions of pattern in genome."""
     return [i for i in range(len(genome) - len(pattern) + 1) if genome[i:i+len(pattern)] == pattern]

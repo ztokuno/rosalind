@@ -2,6 +2,7 @@
 # BA1C
 # Find the Reverse Complement of a String
 
+
 def reverse_complement(dna):
     """Generate the reverse complement of a DNA sequence."""
     complements = {'A': 'T', 'C': 'G', 'T': 'A', 'G': 'C'}

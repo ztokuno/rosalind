@@ -2,6 +2,7 @@
 # BA1B
 # Find the Most Frequent Words in a String
 
+
 def make_kmers(dna, k):
     """Make all possible kmers of size k from a DNA string."""
     return [dna[i:i+k] for i in range(len(dna) - k + 1)]
