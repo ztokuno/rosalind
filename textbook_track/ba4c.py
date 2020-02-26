@@ -10,10 +10,7 @@ aa_to_mass = {'G': 57, 'A': 71, 'S': 87, 'P': 97, 'V': 99,
 
 def mass(peptide):
     """Return total mass of peptide."""
-    mass = 0
-    for aa in peptide:
-        mass += aa_to_mass[aa]
-    return mass
+    return sum([aa_to_mass[aa] for aa in peptide])
 
 
 def subpeptides(peptide):
